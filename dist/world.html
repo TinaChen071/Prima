@@ -174,18 +174,27 @@
     <!-- Content -->
     <div class="section">
       <!-- 地區 Tab -->
-      <nav class="relative z-0 flex border rounded-lg overflow-hidden shadow-md" aria-label="Tabs" role="tablist">
-        <button type="button" class="tab border-r active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
+      <nav class="relative z-0 grid grid-cols-4 md:grid-cols-7  border rounded-lg overflow-hidden shadow-md divide-x divide-y" aria-label="Tabs" role="tablist">
+        <button type="button" class="tab  active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
           台灣地區
         </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
-          中國地區（含香港）
+        <button type="button" class="tab" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
+          中國地區<br>（含香港）
         </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
+        <button type="button" class="tab" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
           越南地區
         </button>
-        <button type="button" class="tab" id="bar-with-underline-item-4" data-hs-tab="#bar-with-underline-4" aria-controls="bar-with-underline-4" role="tab">
+        <button type="button" class="tab border-b" id="bar-with-underline-item-4" data-hs-tab="#bar-with-underline-4" aria-controls="bar-with-underline-4" role="tab">
           印尼地區
+        </button>
+        <button type="button" class="tab" id="bar-with-underline-item-5" data-hs-tab="#bar-with-underline-5" aria-controls="bar-with-underline-5" role="tab">
+          美洲地區
+        </button>
+        <button type="button" class="tab col-span-2 md:col-span-1" id="bar-with-underline-item-6" data-hs-tab="#bar-with-underline-6" aria-controls="bar-with-underline-6" role="tab">
+          歐洲地區
+        </button>
+        <button type="button" class="tab" id="bar-with-underline-item-7" data-hs-tab="#bar-with-underline-7" aria-controls="bar-with-underline-7" role="tab">
+          澳洲地區
         </button>
       </nav>
       
@@ -476,6 +485,84 @@
               </div>
             </div>
            </div>
+        </div>
+        <!-- USA -->
+        <div id="bar-with-underline-5" role="tabpanel" aria-labelledby="bar-with-underline-item-5">
+          <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
+            <!-- Img -->
+            <div>
+              <img src="../img/taiwan.png" alt="" class="w-1/2 md:w-2/3 mx-auto">
+            </div>
+
+            <!-- 台北市 -->
+            <div class="flex flex-col gap-2 sm:gap-3">
+              <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>台北市 Taipei</p>
+              </div>
+
+              <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
+                <p>
+                  Tel : 886-2500-7189
+                </p>
+                <p>
+                  Fax : 886-2-2500-6389
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Europe -->
+        <div id="bar-with-underline-6" role="tabpanel" aria-labelledby="bar-with-underline-item-6">
+          <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
+            <!-- Img -->
+            <div>
+              <img src="../img/taiwan.png" alt="" class="w-1/2 md:w-2/3 mx-auto">
+            </div>
+
+            <!-- 台北市 -->
+            <div class="flex flex-col gap-2 sm:gap-3">
+              <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>台北市 Taipei</p>
+              </div>
+
+              <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
+                <p>
+                  Tel : 886-2500-7189
+                </p>
+                <p>
+                  Fax : 886-2-2500-6389
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Australia -->
+        <div id="bar-with-underline-7" role="tabpanel" aria-labelledby="bar-with-underline-item-7">
+          <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
+            <!-- Img -->
+            <div>
+              <img src="../img/taiwan.png" alt="" class="w-1/2 md:w-2/3 mx-auto">
+            </div>
+
+            <!-- 台北市 -->
+            <div class="flex flex-col gap-2 sm:gap-3">
+              <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>台北市 Taipei</p>
+              </div>
+
+              <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
+                <p>
+                  Tel : 886-2500-7189
+                </p>
+                <p>
+                  Fax : 886-2-2500-6389
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
